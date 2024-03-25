@@ -1,2 +1,2 @@
 # voxelds
-A basic voxel of webgl no three.js code
+A basic proto voxel of webgl no three.js code
