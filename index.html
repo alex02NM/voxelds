@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebGL Cube</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    canvas {
+      display: block;
+      cursor: none;
+    }
+
+    #fps {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="fps"></div>
+  <canvas id="webgl-canvas"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.4.0/gl-matrix.js"></script>
+
+  <script type="text/javascript" src="Cubes/cubes.json"></script>
+
+  <script type="text/javascript" src="texture/normal.json"></script>
+
+  <script src="controls/mobile.js"></script>
+  <script src="perlin.js"></script>
+  <script src="terrain.js"></script>
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
